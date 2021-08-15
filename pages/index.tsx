@@ -11,7 +11,11 @@ export default function Home() {
                 <link rel="icon" href="/icons/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <h1>This is style testing</h1>
+                <h1 className={utilStyles.h1}>Title/Header 1</h1>
+                <h2 className={utilStyles.h2}>Title/Header 1</h2>
+                <h3 className={utilStyles.h3}>Title/Header 1</h3>
+                <p className={utilStyles.subtitle}>Title/Header 1</p>
+                <p className={utilStyles.body}>Title/Header 1</p>
             </main>
             <footer className={styles.footer}></footer>
         </div>
