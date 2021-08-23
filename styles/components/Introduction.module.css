@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    background-color: var(--background_color);
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+}
+
+.intro {
+    width: 50vw;
+    height: 30vw;
+    white-space: wrap;
+}
+
+.character {
+    width: 50vw;
+}
+.circle {
+    position: relative;
+    top: -5vh;
+    right: -0vw;
+    width: 100vw;
+    height: 110vh;
+    background-color: var(--primary_color);
+    border-radius: 100%;
+}
