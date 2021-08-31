@@ -1,3 +1,4 @@
+/* container */
 .container {
     height: 100vh;
     background-color: var(--background_color);
@@ -6,23 +7,51 @@
 
 .main {
     display: flex;
+    height: 100%;
+}
+
+/* left side */
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
 }
 
 .intro {
-    width: 50vw;
-    height: 30vw;
-    white-space: wrap;
+    width: 30vw;
+    text-align: center;
+    margin-bottom: 5vh;
 }
 
+.btngroup {
+    display: flex;
+    text-align: center;
+}
+
+.btn {
+    color: var(--primary_text_color);
+    width: 10vw;
+    border: 1px var(--primary_color) solid;
+    background-color: var(--primary_color);
+    padding: 1.5vh 1vw;
+    margin: 2vh 2vw;
+    border-radius: 12.5%;
+    box-shadow: 0px 5px 10px black;
+    cursor: pointer;
+}
+/* right side */
 .character {
     width: 50vw;
 }
+
 .circle {
     position: relative;
-    top: -5vh;
-    right: -0vw;
-    width: 100vw;
-    height: 110vh;
+    top: -25vh;
+    right: -vh;
+    width: 150vh;
+    height: 150vh;
     background-color: var(--primary_color);
-    border-radius: 100%;
+    border-radius: 50%;
 }
