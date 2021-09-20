@@ -1,3 +1,5 @@
+// Lib
+import React from "react";
 // Next Component
 import Head from "next/head";
 // Styles
@@ -5,8 +7,10 @@ import styles from "../styles/pages/Portfolio.module.css";
 import utilStyles from "../styles/util/Util.module.css";
 // Component
 import Introduction from "../component/introduction/Introduction";
+// Context
+import LanguageContextProvider from "../context/LanguageContext";
 
-export default function Home() {
+const Home = () => {
     return (
         <div className={styles.container}>
             <Head>
@@ -15,8 +19,12 @@ export default function Home() {
                 <link rel="icon" href="/icons/favicon.ico" />
             </Head>
             <main className={styles.main}>
-                <Introduction />
+                <LanguageContextProvider>
+                    <Introduction />
+                </LanguageContextProvider>
             </main>
         </div>
     );
-}
+};
+
+export default Home;
