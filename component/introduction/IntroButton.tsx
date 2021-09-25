@@ -4,12 +4,12 @@ import React from "react";
 import styles from "../../styles/components/Introduction.module.css";
 import utilStyles from "../../styles/util/Util.module.css";
 
-// Type
-type Props = {
+// interface
+interface IntroProps {
     title?: string;
-};
+}
 
-const IntroButton: React.FC<Props> = ({ title = "default" }) => {
+const IntroButton: React.FC<IntroProps> = ({ title = "default" }) => {
     return (
         <button className={`${styles.btn} ${utilStyles.h3}`}>{title}</button>
     );

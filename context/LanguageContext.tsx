@@ -1,11 +1,11 @@
 // Lib
 import React, { useState, createContext, FC } from "react";
 
-// Types
-type LanguageContextState = {
+// interface
+interface LanguageContextState {
     language: string;
     setLanguage: (name: string) => void;
-};
+}
 
 const languageContextDefault: LanguageContextState = {
     language: "en",
