@@ -2,10 +2,10 @@
 import React, { useState, createContext, FC } from "react";
 
 // interface
-interface LanguageContextState {
+type LanguageContextState = {
     language: string;
     setLanguage: (name: string) => void;
-}
+};
 
 const languageContextDefault: LanguageContextState = {
     language: "en",
