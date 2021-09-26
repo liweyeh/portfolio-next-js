@@ -7,6 +7,8 @@ import styles from "../styles/pages/Portfolio.module.css";
 import utilStyles from "../styles/util/Util.module.css";
 // Component
 import Introduction from "../component/introduction/Introduction";
+import Skill from "../component/skill/Skill";
+import Person from "../component/person/Person";
 // Context
 import LanguageContextProvider from "../context/LanguageContext";
 
@@ -21,6 +23,8 @@ const Home = () => {
             <main className={styles.main}>
                 <LanguageContextProvider>
                     <Introduction />
+                    <Person />
+                    <Skill />
                 </LanguageContextProvider>
             </main>
         </div>
