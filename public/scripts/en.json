@@ -1,4 +1,8 @@
 {
     "greeting": "Welcome to Liwei's Profolio. I am Doge, the guide of this site",
-    "skillTitle": "Skill List"
+    "skillTitle": "Skill List",
+    "person": {
+        "title": "Bio",
+        "content": " Hi, my name is liwei"
+    }
 }
