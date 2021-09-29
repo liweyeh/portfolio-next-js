@@ -1,0 +1,39 @@
+/* container */
+.container {
+    height: 100vh;
+    background-color: var(--background_color);
+    overflow: hidden;
+    color: var(--primary_text_color);
+}
+
+.main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Self Into */
+
+.intro {
+    width: 60vw;
+    height: 45vh;
+    box-shadow: 2.5px 0px 7px var(--primary_text_color);
+    border-radius: 25px;
+    border: 1px solid var(--primary_text_color);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 0.75fr 1fr;
+}
+
+.left {
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
