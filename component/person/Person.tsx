@@ -1,5 +1,9 @@
 // Lib
 import React, { useContext } from "react";
+import Image from "next/image";
+
+// Assest
+import me from "../../public/images/photo_me.jpg";
 // Scripts
 import scriptIndex from "../../public/scripts/scriptIndex";
 // CSS
@@ -18,7 +22,14 @@ const Skill = () => {
                 <div className={styles.intro}>
                     <div className={styles.left}>
                         <h1 className={styles.title}>{script.title}</h1>
-                        <img />
+                        <div className={styles.photo}>
+                            <Image
+                                src={me}
+                                alt={script.photo_alt}
+                                layout="fill"
+                                objectFit="cover"
+                            />
+                        </div>
                     </div>
                     <p className={styles.content}>{script.content}</p>
                 </div>

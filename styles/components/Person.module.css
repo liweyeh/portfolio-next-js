@@ -24,13 +24,28 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 0.75fr 1fr;
+    grid-column-gap: 20px;
 }
 
 .left {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
 }
+
 .title {
     display: flex;
     align-items: center;
+    height: 10%;
+}
+
+.photo {
+    position: relative;
+    border-radius: 200px;
+    overflow: hidden;
+    height: 30vh;
+    width: 30vh;
 }
 
 .content {

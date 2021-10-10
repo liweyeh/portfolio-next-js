@@ -3,6 +3,7 @@
     "skillTitle": "Skill List",
     "person": {
         "title": "Bio",
-        "content": " Hi, my name is liwei"
+        "content": " Hi, my name is liwei",
+        "photo_alt": "Photo of Liwei Yeh"
     }
 }
