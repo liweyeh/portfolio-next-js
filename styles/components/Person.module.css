@@ -21,7 +21,7 @@
     box-shadow: 2.5px 0px 7px var(--primary_text_color);
     border-radius: 25px;
     border: 1px solid var(--primary_text_color);
-    padding: 20px;
+    padding: 20px 40px;
     display: grid;
     grid-template-columns: 0.75fr 1fr;
     grid-column-gap: 20px;
